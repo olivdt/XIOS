@@ -90,3 +90,8 @@ v2.1.0.3
 *Mature calculation fix
 *Rewardaddress fix
 *Masternode stop fix
+
+v2.1.1.1
+--------
+
+*Added checkpoints to fix sync issues

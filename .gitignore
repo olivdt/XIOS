@@ -1,0 +1,62 @@
+*.sublime-project
+*.sublime-workspace
+todo.txt
+
+*.tar.gz
+*.exe
+XIOSd
+XIOS-qt
+
+# Dev
+Makefile
+Makefile.*
+.qmake.stash
+object_script.*
+xios-qt_plugin_import.cpp
+release/*
+
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
+
+src/qt/test/moc*.cpp
+libconftest.dylib*
+
+.deps
+.dirstamp
+.libs
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.pyc
+*.o
+*.o-*
+*.patch
+*.a
+*.pb.cc
+*.pb.h
+
+*.log
+*.trs
+*.dmg
+
+*.json.h
+*.raw.h
+
+#libtool object files
+*.lo
+*.la
+
+# Compilation and Qt preprocessor part
+*.qm
+
+# Resources cpp
+qrc_*.cpp
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

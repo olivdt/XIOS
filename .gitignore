@@ -9,7 +9,6 @@ XIOS-qt
 
 # Dev
 Makefile
-Makefile.*
 .qmake.stash
 object_script.*
 xios-qt_plugin_import.cpp

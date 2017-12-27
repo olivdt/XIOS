@@ -1,8 +1,13 @@
-## install the needed tools for Ubuntu 16.10
+## install the needed tools for Ubuntu 16.10 or Debian 9
 
 sudo apt install build-essential libtool autotools-dev autoconf pkg-config curl
 
 ## these are the shell commands:
+
+git submodule init
+
+git submodule update
+
 cd depends
 
 make NO_QT=1
